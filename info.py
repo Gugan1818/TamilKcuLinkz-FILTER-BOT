@@ -59,7 +59,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('mongodb+srv://gugan493:<db_gugan1818>@cluster0.qidmwzd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', "")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('mongodb+srv://gugan493:<gugan1818>@cluster0.qidmwzd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', "")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
@@ -90,7 +90,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+TSlKIqe5CHxhZWY9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TamilKcuLinkz')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+AlwXOmAJsGE4MTE1') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 't.me/+AlwXOmAJsGE4MTE1') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', '@TamilKcu_Adminbot')
 
 # True Or False
